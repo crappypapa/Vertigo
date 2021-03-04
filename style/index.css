@@ -1,3 +1,9 @@
+.deep-grey {
+  background-color: #272A31;
+}
+
+/* NAVBAR */
+
 .navbar-main {
   height: 100px;
 }
@@ -13,4 +19,34 @@
 .brand-img {
   height: 100px;
   width: auto;
+}
+
+/* FOOTER */
+
+footer {
+  display : flex;
+  justify-content: space-around;
+  margin: 10px;
+  
+}
+
+footer img {
+  height: auto;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.footer-text {
+  color: #d3d3d3;
+  margin-right: 50px;
+  padding-top: 30px;
+  line-height: 1rem;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  footer {
+    display:none;
+  }
 }
