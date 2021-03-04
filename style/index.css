@@ -1,0 +1,16 @@
+.navbar-main {
+  height: 100px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.brand-img {
+  height: 100px;
+  width: auto;
+}
