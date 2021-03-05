@@ -2,6 +2,10 @@
   background-color: #272A31;
 }
 
+.lighter {
+  color: #d3d3d3;
+}
+
 /* NAVBAR */
 
 .navbar-main {
@@ -20,14 +24,24 @@
   height: 100px;
   width: auto;
 }
+/* PARTNER*/
+h2{
+  text-align: center;
+  padding: 30px;
+}
+
+.partner-img {
+  width: 80px;
+  height: 80px;
+}
+
 
 /* FOOTER */
 
-footer {
+.footer-items {
   display : flex;
-  justify-content: space-around;
-  margin: 10px;
-  
+  justify-content: center;
+  background-color: #272A31;
 }
 
 footer img {
@@ -37,16 +51,20 @@ footer img {
 }
 
 .footer-text {
-  color: #d3d3d3;
   margin-right: 50px;
   padding-top: 30px;
   line-height: 1rem;
   text-align: center;
+  background-color: #272A31;
 }
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   footer {
     display:none;
+  }
+
+  .partners {
+    display: none;
   }
 }
