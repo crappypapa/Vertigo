@@ -1,5 +1,5 @@
 .deep-grey {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .lighter {
@@ -24,8 +24,30 @@
   height: 100px;
   width: auto;
 }
-/* PARTNER*/
-h2{
+
+/* INVITED TEAMS */
+
+.iv-teams{
+  margin-bottom: 16px;
+}
+
+.iv-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 70%;
+  margin: auto;
+  gap: 20px;
+}
+
+.iv-grid-item {
+  display: flex;
+  justify-content:flex-start;
+
+}
+
+/* PARTNER */
+
+h2 {
   text-align: center;
   padding: 30px;
 }
@@ -35,13 +57,12 @@ h2{
   height: 80px;
 }
 
-
 /* FOOTER */
 
 .footer-items {
-  display : flex;
+  display: flex;
   justify-content: center;
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 footer img {
@@ -55,13 +76,13 @@ footer img {
   padding-top: 30px;
   line-height: 1rem;
   text-align: center;
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   footer {
-    display:none;
+    display: none;
   }
 
   .partners {
