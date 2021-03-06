@@ -4,14 +4,7 @@
 
 /* BODY */
 body {
-  background:linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgb(255, 255, 255)
-    ),url(/assets/img/lightbg.png);
-  background-position: cover ;
-  background-repeat: repeat;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .deep-grey {
@@ -23,10 +16,6 @@ body {
 }
 
 /* NAVBAR */
-
-.navbar-main {
-  height: 100px;
-}
 
 .navbar-nav {
   margin-left: auto;
@@ -55,8 +44,9 @@ section .bi {
 
 .schedule {
   background-image: url(/assets/img/schedule.png);
-  background-position: cover ;
+  background-size: cover;
   background-repeat: repeat;
+  margin: 0 10px;
 }
 
 .schedule-btn {
@@ -67,25 +57,28 @@ section .bi {
 .schedule-btn .btn {
   background-color: #d3d3d3;
   opacity: 0.7;
-  color:#ec5242;
+}
+
+.schedule-btn a {
+  color: #ec5242;
 }
 
 .bg-light-col {
-  background-color:#363336;
+  background-color: #363336;
   opacity: 0.7;
-  color:#d3d3d3;
+  color: #d3d3d3;
 }
 
-.schedule-week{
+.schedule-week {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   width: 90%;
   margin: auto;
-  gap:10px;
+  gap: 10px;
 }
 
 .schedule-day {
-  padding:10px;
+  padding: 10px;
   margin-bottom: 40px;
   font-size: 0.8rem;
   text-align: center;
@@ -94,13 +87,58 @@ section .bi {
 .schedule-day h6 {
   color: #ec5242;
   font-weight: 600;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
+
+.ttb {
+  background-color: #d3d3d3;
+  border: 1px solid #ec5242;
+}
+
+.ttb:focus,
+.ttb:hover {
+  background-color: #ec5242;
+  color: #d3d3d3;
+  border: 1px solid #272a31;
+}
+
+.card {
+  width: 80%;
+}
+
+.m-card {
+  background-color: #ec5242;
+  opacity: 0.8;
+}
+
+.a-card {
+  background-color: #d3d3d3;
+  opacity: 0.8;
+}
+
+.e-card {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
 
 /* INVITED TEAMS */
 
-.iv-teams{
-  margin-bottom: 16px;
+.iv-teams {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgb(255, 255, 255)
+    ),
+    url(/assets/img/lightbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 10px;
+}
+
+.iv-teams-header {
+  color: #ec5242;
 }
 
 .iv-grid-container {
@@ -108,18 +146,62 @@ section .bi {
   grid-template-columns: auto auto;
   width: 70%;
   margin: auto;
-  gap: 20px;
+  gap: 30px;
+  padding-bottom: 30px;
 }
 
 .iv-grid-item {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
+}
 
+.show {
+  display: none;
+}
+
+/* ABOUT */
+
+.about-1 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255)
+    ),
+    url(/assets/img/lightbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-text-1,
+.about-text-3 {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.about-logo {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.past {
+  position: relative;
+}
+
+.past-text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  color: #fff;
+  z-index: 5;
 }
 
 /* PARTNER */
 
-h2 {
+h1,
+h2,
+h4 {
   text-align: center;
   padding: 30px;
 }
@@ -155,8 +237,13 @@ footer img {
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
-  footer {
-    display: none;
+  .footer-items {
+    background-color: #272a31;
+  }
+
+  .footer-text {
+    background-color: #272a31;
+    color: #d3d3d3;
   }
 
   .partners {
@@ -167,14 +254,35 @@ footer img {
     display: block;
   }
 
-  .schedule-day{
-    display:flex;
-    justify-content: space-between;
-
+  .iv-grid-item {
+    margin: 10px;
   }
 
-  .schedule-day h6{
-    margin-bottom:15px;
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .show .btn {
+    background-color: #ec5242;
+  }
+
+  .show a {
+    color: #d3d3d3;
+  }
+
+  .schedule-day {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .schedule-day h6 {
+    margin-bottom: 15px;
     margin-left: 30px;
     padding: 0 20px;
   }
@@ -184,7 +292,7 @@ footer img {
   }
 
   .schedule-week {
-    display:block;
-    padding-bottom:40px;
+    display: block;
+    padding-bottom: 40px;
   }
 }
