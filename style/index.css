@@ -84,6 +84,10 @@ section .bi {
   text-align: center;
 }
 
+.schedule-day:hover {
+  border: 2px solid #d3d3d3;
+}
+
 .schedule-day h6 {
   color: #ec5242;
   font-weight: 600;
@@ -121,7 +125,6 @@ section .bi {
   color: #d3d3d3;
 }
 
-
 /* INVITED TEAMS */
 
 .iv-teams {
@@ -141,10 +144,14 @@ section .bi {
   color: #ec5242;
 }
 
+.iv-teams-img {
+  height: 140px;
+}
+
 .iv-grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  width: 70%;
+  width: 80%;
   margin: auto;
   gap: 30px;
   padding-bottom: 30px;
@@ -194,7 +201,7 @@ section .bi {
   top: 30%;
   left: 20%;
   color: #fff;
-  z-index: 5;
+  font-family: "Lato", sans-serif;
 }
 
 /* PARTNER */
@@ -246,7 +253,8 @@ footer img {
     color: #d3d3d3;
   }
 
-  .partners {
+  .partners,
+  .schedule-desktop {
     display: none;
   }
 
