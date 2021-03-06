@@ -43,7 +43,7 @@ section .bi {
 /* SCHEDULE */
 
 .schedule {
-  background-image: url(assets/img/schedule.png);
+  background-image: url("assets/img/schedule.png");
   background-size: cover;
   background-repeat: repeat;
   margin: 0 10px;
@@ -134,7 +134,7 @@ section .bi {
       rgba(255, 255, 255, 0.3),
       rgb(255, 255, 255)
     ),
-    url(assets/img/lightbg.png);
+    url("assets/img/lightbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 10px;
@@ -175,7 +175,7 @@ section .bi {
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255)
     ),
-    url(assets/img/lightbg.png);
+    url("assets/img/lightbg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
