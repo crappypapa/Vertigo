@@ -256,6 +256,11 @@ footer img {
   color: #272a31;
 }
 
+.form-label {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   .footer-items {
@@ -310,7 +315,7 @@ footer img {
   }
 
   .schedule-day p {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .schedule-week {
