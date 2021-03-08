@@ -5,10 +5,10 @@
 > Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum section. 
 
 ![Home](./screenshot.png)
-![Home on small screen](./homesmall.png)
-![about on big screen](./about.png)
-![schedule on big screen](./schedulebig.png)
-![schedule on small screen](./schedulesmall.png)
+![Home on small screen](./assets/img/homesmall.png)
+![about on big screen](./assets/img/about.png)
+![schedule on big screen](./assets/img/schedulebig.png)
+![schedule on small screen](./assets/img/schedulesmall.png)
 
 The project is to build a Conference website and I opted to build one that applies to esports gamers. It has three pages.
 - The Home page
@@ -60,7 +60,7 @@ Live preview available at Link
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/crappypapa/Vertigo/issues/).
 
 ## Show your support
 
