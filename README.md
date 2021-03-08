@@ -2,11 +2,23 @@
 
 # Capstone Project - Vertigo Gamers Conference
 
-> One paragraph statement about the project.
+> Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum section. 
 
-![screenshot](./app_screenshot.png)
+![Home](./screenshot.png)
+![Home on small screen](./homesmall.png)
+![about on big screen](./about.png)
+![schedule on big screen](./schedulebig.png)
+![schedule on small screen](./schedulesmall.png)
 
-Additional description about the project and its features.
+The project is to build a Conference website and I opted to build one that applies to esports gamers. It has three pages.
+- The Home page
+- The Schedule page
+- The About page
+
+Each of these pages have versions for 2 different screen sizes: 
+
+- mobile: up to 768px
+- desktop: from 768px
 
 ## Built With
 
@@ -16,7 +28,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://crappypapa.github.io/Vertigo/index.html)
 
 
 ## Getting Started
@@ -24,21 +36,16 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+Clone directory using GitHub. 
 
-### Setup
+You can run by opening the file in your browser as well!
 
-### Install
-
-### Usage
+Live preview available at Link
 
 ### Run tests
 
-- 
-
-### Deployment
-
-
+- Run npx hint ." to check errors on HTML
+- Run npx stylelint "**/*.{css,scss}" to check errors on the CSS
 
 ## Authors
 
